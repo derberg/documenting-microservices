@@ -61,7 +61,11 @@
 					</section>
 					<section>
 						<h3>Monolith</h3>
-						<img class="fragment" src="img/monolith.png" style="width: 50%;">
+						<img src="img/monolith.png" style="width: 50%;">
+					</section>
+					<section>
+						<h3>Monolith</h3>
+						<img src="img/shark.jpg" >
 					</section>
 					<section>
 						<h3>Architecture</h3>
@@ -152,7 +156,7 @@
 						<h2>Now they say</h2>
 						<ul>
 							<li class="fragment">"We can’t release it without documentation. We need to document and talk to Q team to get a language review"</li>
-							<li class="fragment">"We have something new that doesn’t fit the current structure. We need to talk to during CoP meeting on what to do, and then we have to do it"</li>
+							<li class="fragment">"We have something new that doesn’t fit the current structure. We need to talk to CoP and ask what to do, and then we have to do it"</li>
 							<li class="fragment">"I don't like how it is formatted in the UI. We need to talk to Wookiees to improve it"</li>
 						</ul>
 					</section>
@@ -176,30 +180,25 @@
 					</p>
 					<code style="font-size: 20px; text-align: left;">
 						<p>
-							git clone https://github.com/yaas/docpad-skeleton-apidocs.git
-						</p>
-						<p>
-							cd docpad-skeleton-apidocs
-						</p>
-						<p>
-							npm run prepare
-						</p>
-						<p>
-							npm run init
+							docker run -it --rm --name api-doc-sample -p 9778:9778 derberg/dsa-quickstart /bin/bash
 						</p>
 						<p>
 							npm run start
 						</p>
+						<p>
+							open http://localhost:9778/ in a browser
+						</p>s
 					</code>
 					<p style="font-size: 25px; text-align: left;">
-						Watch https://www.youtube.com/watch?v=a0i6kXxgYuw to understand how it works.
+						Visit https://github.com/yaas/docpad-skeleton-apidocs for more details.
 					</p>
 				</section>
 				<section>
 					<h3>Thanks!</h3>
 					<p>
-						<small>YaaS <a href="https://yaas.io">https://yaas.io</a></small><br>
-						<small>This presentation: <a href="http://derberg.github.io/documenting-microservices">http://derberg.github.io/documenting-microservices</a></small><br>
+						<small>YaaS Dev Portal: <a href="https://devportal.yaas.io">https://devportal.yaas.io</a></small></br>
+						<small>YaaS Knowledge Hub: <a href="https://knowledge.yaas.io">https://knowledge.yaas.io</a></small>
+						<small>This presentation: <a href="http://derberg.github.io/documenting-microservices">http://derberg.github.io/documenting-microservices</a></small><br>						
 						<small>GitHub: <a href="https://github.com/derberg">derberg</a></small> <br>
 						<small>Twitter: <a href="http://twitter.com/derberq">@derberq</a></small> <br>
 						<small>DocPad: <a href="https://docpad.org/">https://docpad.org/</a></small> <br>
